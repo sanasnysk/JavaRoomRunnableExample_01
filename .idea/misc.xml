@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/gitAndroidStudioProjects/JavaRoomRunnableExam/JavaRoomRunnableExample_01/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/gitAndroidStudioProjects/JavaRoomRunnableExam/JavaRoomRunnableExample_01/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/gitAndroidStudioProjects/JavaRoomRunnableExam/JavaRoomRunnableExample_01/app/src/main/res/layout/user_item.xml" value="0.221025641025641" />
       </map>
     </option>
   </component>

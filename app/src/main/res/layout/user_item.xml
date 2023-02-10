@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Title :"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText,NestedWeights" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Name :"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ones :"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            tools:ignore="UselessLeaf">
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Title"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,NestedWeights" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Name"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/txt_ones"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ones"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
